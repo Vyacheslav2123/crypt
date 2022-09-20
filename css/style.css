@@ -430,6 +430,114 @@ a {
     right: -5px;
     top: -5px;
 }
+.token {
+    margin: 50px 0;
+}
+.token__container {
+    width: 90%;
+    margin: 100px auto ;
+}
+.token-grafic {
+    width: 100%;
+    display: flex;
+}
+.token-grafic1 {
+    position: relative;
+    width: 70%;
+    height: 40px;
+    background-color: #f15a91;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.token-grafic2 {
+    position: relative;
+    width: 15%;
+    height: 40px;
+    background-color: #603cab;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.token-grafic3 {
+    position: relative;
+    width: 9%;
+    height: 40px;
+    background-color: #004eff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.token-grafic4 {
+    position: relative;
+    width: 9%;
+    height: 40px;
+    background-color: #1ebade;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.token-grafic5 {
+    position: relative;
+    width: 9%;
+    height: 40px;
+    background-color: #28efdb;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.token-extra {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.subtoken {
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.subtoken__container {
+    display: flex;
+    gap: 30px;
+    display: flex;
+    gap: 30px;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 30px;
+}
+.subtoken__container:last-child {
+    margin-top: 30px;
+    border-bottom: none;
+}
+.subtoken__container-inner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.subtoken__container-inner:last-child {
+    gap: 25px;
+}
 .team {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -742,6 +850,9 @@ a {
         width: initial;
         justify-content: space-between;
     }
+    .token__container {
+        width: 100%;
+    }
     .advisory__container {
         width: 100%;
     }
@@ -934,6 +1045,16 @@ a {
     }
     .fix {
         display: none;
+    }
+    .token-grafic {
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .token-extra {
+        width: 200px;
+        top: 40px;
     }
 }
 @media (max-width: 680px) {
