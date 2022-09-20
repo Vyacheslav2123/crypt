@@ -980,6 +980,9 @@ a {
         width: 100%;
         margin-left: 0;
     }
+    .team-profile {
+        width: 70%;
+    }
     .footer {
         height: 780px;
     }
