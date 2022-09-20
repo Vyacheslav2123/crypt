@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="header">
@@ -16,9 +18,9 @@
                 <li><a href="#generation" class="nav-link">Overview</a></li>
                 <li><a href="#coin" class="nav-link">About STMX</a></li>
                 <li><a href="#protecting" class="nav-link">How it Works</a></li>
-                <li><a href="" class="nav-link">Token</a></li>
-                <li><a href="" class="nav-link">Roadmap</a></li>
-                <li><a href="" class="nav-link">Team</a></li>
+                <li><a href="#stage" class="nav-link">Roadmap</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#advisory" class="nav-link">Our Advisory</a></li>
             </nav>
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -29,9 +31,9 @@
                   <li><a class="menu__item" href="#generation">Overview</a></li>
                   <li><a class="menu__item" href="#coin">About STMX</a></li>
                   <li><a class="menu__item" href="#protecting">How it Works</a></li>
-                  <li><a class="menu__item" href="#">Token</a></li>
-                  <li><a class="menu__item" href="#">Roadmap</a></li>
-                  <li><a class="menu__item" href="#">Team</a></li>
+                  <li><a class="menu__item" href="#stage">Roadmap</a></li>
+                  <li><a class="menu__item" href="#team">Team</a></li>
+                  <li><a class="menu__item" href="#advisory">Our Advisory</a></li>
                   <div class="language_mob">
                     <a href="javascript:lang_mob();" class="lang-btn-mob">Eng <div class="sign"></div>
                     </a>
@@ -54,10 +56,10 @@
     </div>
     <main class="main">
         <section class="generation" id="generation">
-            <h1 class="f-title">
+            <h1 class="f-title" data-aos="fade-up" data-aos-duration="1000">
                 Next Generation Security
             </h1>
-            <p class="text">
+            <p class="text" data-aos="fade-up" data-aos-duration="1000">
                 STMX is a network of independent nodes that provide a decentralized encrypted databaser service.
             </p>
             <div class="present">
@@ -86,17 +88,12 @@
         <section class="coin" id="coin">
             <h1 class="title">What is STMX Coin?</h1>
             <div class="container">
-                <div class="subcontainer">
+                <div class="subcontainer" data-aos="fade-up" data-aos-duration="1000">
                     <img src="./img/image1_03.jpg" />
                 </div>
                 <div class="subcontainer">
                     <h3 class="coin__text">STMX Coin is a platform for the future of funding that is built on top of the Ethereum blockchain. It accelerates growth of start-up companies by offering tools and services that save both time and resources.</h3>
                     <p class="coin__desc">Investors can use services to divide their investments between various services like P2P loans, crowdfunding, etc. The first version of the STMX allows startups to launch and manage crowdfunding and ICO campaigns.</p>
-                    <div class="coin__extra">
-                        <div class="extra__container">
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -106,12 +103,12 @@
                 <div class="subcontainer">
                     <h3 class="coin__text">While we are helping start-ups to raise the funds, we care about investors whose investments’ protection we wish to guarantee to the maximum extent. The voting system gives the investors bigger control over their investment.</h3>
                     <div class="protecting__extra">
-                        <p>Up to 2% STMX cashback on all transactions</p>
-                        <p>Exchange STMX for Bictoin or Ethreum</p>
-                        <p>Trade STMX on 17 exchanges</p>
+                        <p><img src="./img/5299035.png" width="10" height="10"> Up to 2% STMX cashback on all transactions</p>
+                        <p><img src="./img/5299035.png" width="10" height="10"> Exchange STMX for Bictoin or Ethreum</p>
+                        <p><img src="./img/5299035.png" width="10" height="10"> Trade STMX on 17 exchanges</p>
                     </div>
                 </div>
-                <div class="subcontainer">
+                <div class="subcontainer" data-aos="fade-up" data-aos-duration="1000">
                     <img src="./img/graph_07.png" />
                 </div>
             </div>
@@ -120,22 +117,19 @@
             <h1 class="title">WE BRING TOGETHER MARKETPLACES & FINANCE</h1>
             <div class="container">
                 <div class="subcontainer">
-                    <img src="./img/graph_11.jpg" />
+                    <img src="./img/graph_11.jpg" data-aos="fade-right" data-aos-duration="1000" />
                 </div>
                 <div class="subcontainer">
-                    <h3 class="coin__text">WThe ultimate goal of STMX is to be the all-in-one solution and offer a wide array of services from market to finance.</h3>
-                    <p class="coin__desc">Our clients — both corporate and private ones — will access all the services they need from a single platform. Blockchain technology gives us the chance to make your finances grow faster and give better returns.</p>
+                    <h3 class="coin__text">The ultimate goal of STMX is to be the all-in-one solution and offer a wide array of services from market to finance.</h3>
                     <div class="protecting__extra">
-                        <p>Up to 2% STMX cashback on all transactions</p>
-                        <p>Exchange STMX for Bictoin or Ethreum</p>
-                        <p>Trade STMX on 17 exchanges</p>
+                        <p>Our clients — both corporate and private ones — will access all the services they need from a single platform. Blockchain technology gives us the chance to make your finances grow faster and give better returns.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="stage">
+        <section class="stage" id="stage">
             <h1 class="title">WHAT STAGE ARE WE AT?</h1>
-            <div class="stage__content">
+            <div class="stage__content" data-aos="fade-up" data-aos-duration="1000">
                 <div class="stage__subcontent">
                     <div class="stage-data">
                         <p>May, 2020</p>
@@ -192,6 +186,125 @@
                 </div>
             </div>
         </section>
+        <section class="team" id="team">
+            <h1 class="title">OUR MOTIVATED TEAM</h1>
+            <div class="team__container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="team__subcontainer">
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_1-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Gabriel Moulinou</a>
+                        <p class="team-desc">IT company founder, stock market investor, busines...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_2-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Frederic Zanko</a>
+                        <p class="team-desc">More than 15 years of software development experie...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_3-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Katrina Tamburrano</a>
+                        <p class="team-desc">More than 10 years of experience in banking.</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_4-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Mark Kristof</a>
+                        <p class="team-desc">Investment banker, risk management expert.</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                </div>
+                <div class="team__subcontainer">
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_6-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Simon Kurvits</a>
+                        <p class="team-desc">Internal and external communications specialist.</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_5-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Angie Hunter</a>
+                        <p class="team-desc">8 years of experience working in an investment ban...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_7-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Terence Spencer</a>
+                        <p class="team-desc">Audit specialist, masters in economics.</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                    <div class="team-profile">
+                        <div class="team-photo">
+                            <img src="./img/team_8-195x195.jpg"/>
+                            <a href=""><div class="team-link">in</div></a>
+                        </div>
+                        <a class="team-name">Mattias Christopher</a>
+                        <p class="team-desc">Co-owner of marketing agency, cryptocurrencies inv...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advisory" id="advisory" data-aos="fade-up" data-aos-duration="1300">
+            <h1 class="title">OUR ADVISORY BOARD</h1>
+            <div class="advisory__container">
+                <div class="advisory-profile">
+                    <div class="advisory-photo">
+                        <img src="./img/team11-1-115x115.jpg"/>
+                        <a href=""><div class="advisory-link">in</div></a>
+                    </div>
+                    <div class="advisory-subprofile">
+                        <a class="advisory-name">Mattias Christopher</a>
+                        <p class="advisory-desc">Co-owner of marketing agency, cryptocurrencies inv...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                </div>
+                <div class="advisory-profile">
+                    <div class="advisory-photo">
+                        <img src="./img/team10-1-115x115.jpg"/>
+                        <a href=""><div class="advisory-link">in</div></a>
+                    </div>
+                    <div class="advisory-subprofile">
+                        <a class="advisory-name">Marianna Kopli</a>
+                        <p class="advisory-desc">Headed the Media Department of the football s...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                </div>
+                <div class="advisory-profile">
+                    <div class="advisory-photo">
+                        <img src="./img/team9-1-115x115.jpg"/>
+                        <a href=""><div class="advisory-link">in</div></a>
+                    </div>
+                    <div class="advisory-subprofile">
+                        <a class="advisory-name">Jack Cooking</a>
+                        <p class="advisory-desc">Certified reputational manager with 9 years o...</p>
+                        <a href="" class="more-btn">More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer__container">
@@ -208,30 +321,30 @@
                     </p>
                     <div class="footer__nav">
                         <nav class="footer__nav-sub">
-                            <a href="" class="footer__nav-sub-link">Overview</a>
-                            <a href="" class="footer__nav-sub-link">About STMX How it Works</a>
-                            <a href="" class="footer__nav-sub-link">Overview</a>
+                            <a href="#generation" class="footer__nav-sub-link">Overview</a>
+                            <a href="#coin" class="footer__nav-sub-link">About STMX</a>
+                            <a href="#protecting" class="footer__nav-sub-link">How it Works</a>
                         </nav>
                         <nav class="footer__nav-sub">
-                            <a href="" class="footer__nav-sub-link">Overview</a>
-                            <a href="" class="footer__nav-sub-link">Overview</a>
-                            <a href="" class="footer__nav-sub-link">Overview</a>
+                            <a href="#stage" class="footer__nav-sub-link">Roadmap</a>
+                            <a href="#team" class="footer__nav-sub-link">Team</a>
+                            <a href="#advisory" class="footer__nav-sub-link">Our Advisory</a>
                         </nav>
                     </div>
                 </div>
                 <div class="footer_adapt">
                     <div class="footer__nav">
                         <nav class="footer__nav-sub-img">
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
                         </nav>
                         <nav class="footer__nav-sub-img">
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
                         </nav>
                         <nav class="footer__nav-sub-img">
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
-                            <a href=""><img src="./img/17983664692318714-s.jpg" alt="" width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
+                            <a href=""><img src="./img/17983664692318714-s.jpg"  width="60" height="60"></a>
                         </nav>
                     </div>
                     <form class="search">
@@ -261,5 +374,8 @@
         </svg></div></a>
     </div>
     <script src="./js/script.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
