@@ -1131,8 +1131,12 @@ a {
     }
     .f-title {
         font-size: 40px;
+        padding-left: 10px
     }
-    h1, h3, p {
+    .f-title::before {
+        left: 10px;
+    }
+    h3, h1, p {
         padding-left: 10px;
     }
     .footer {
@@ -1177,5 +1181,14 @@ a {
     .advisory-desc {
         width: 90%;
         padding: 0;
+    }
+    .subcontainer > img {
+        margin-bottom: 20px;
+    }
+    .pre-sale {
+        width: 98%;
+    }
+    .stage-data > h2 {
+        font-size: 20px;
     }
 }
